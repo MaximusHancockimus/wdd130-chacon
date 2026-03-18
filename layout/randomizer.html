@@ -6,6 +6,42 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="randomizer.html">Submit</a>
+        </nav>
+    </header>
+    <main>
+        <p>Hello! If you have any suggestions of what should be added to our website, let us know by putting in your contact info and we will give you an answer back! Thank you for your recommendations</p>
+        <h4>Fill out one or both of these fields</h4>
+        <form action="/action_page.php">
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" value="johndoe@example.com"><br>
+
+            <label for="pnum">Phone Number:</label><br>
+            <input type="text" id="pnum" name="pnum" value="(000) 000-0000"><br><br>
+
+            <label for="suggestions">Suggestion:</label><br>
+            <input type="text" id="suggestions" name="suggestions" value=""><br><br>
+
+            <label for="rname">Randomizer Name (optional):</label><br>
+            <input type="text" id="rname" name="rname" value=""><br><br>
+
+            <h4>Would you like to be credited?:</h4>
+
+            <label for="yes">Yes</label>
+            <input type="checkbox" id="yes" name="yes" value="yes">
+
+            <label for="no">No</label>
+            <input type="checkbox" id="no" name="no" value="no"><br><br>
+
+            <input type="submit" value="Submit">
+        </form> 
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
