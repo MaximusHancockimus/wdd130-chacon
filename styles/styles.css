@@ -1,0 +1,15 @@
+
+:root {
+  --primary: #D2021E;
+  --secondary: #7ACCF6;
+  --accent1: #FDFEFE;
+  --accent2: #FDBC16;
+
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
